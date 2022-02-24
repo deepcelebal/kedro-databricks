@@ -71,7 +71,6 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series, parameters: Dict) -> 
     params = {
         'learning_rate': [0.05, 0.01, 0.0001],
         'n_estimators': [90, 140, 200],
-        'min_samples_split': [1, 2, 3, 4],
         'max_depth' : [1, 2, 3, 4],
         'warm_start': [False, True]
     }
