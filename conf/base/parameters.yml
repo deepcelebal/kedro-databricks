@@ -1,0 +1,24 @@
+test_size: 0.3
+random_state: 42
+features:
+    - x0_Female
+    - x0_Male
+    - x0_Other
+    - x1_No
+    - x1_Yes
+    - x2_Govt_job
+    - x2_Never_worked
+    - x2_Private
+    - x2_Self-employed
+    - x2_children
+    - x3_Rural
+    - x3_Urban
+    - x4_Unknown
+    - x4_formerly smoked
+    - x4_never smoked
+    - x4_smokes
+    - age
+    - hypertension
+    - heart_disease
+    - avg_glucose_level
+    - bmi
